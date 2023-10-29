@@ -130,6 +130,9 @@ argument adalah nilai yang benar-benar dikirimkan ke parameter
 jika parameter lebih sedikit dari argument, maka argument selebihnya akan diabaikan
 jika parameter lebih banyak dari argument, maka parameter kelebihan akan diisi dengan undifined
 
+- Refactoring :
+Sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah functionalitas nya
+
 - contoh function declaration :
 function namaFunction(a, b){
   var total;

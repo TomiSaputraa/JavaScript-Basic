@@ -13,13 +13,22 @@
 // // function akan di jalankan disini
 // console.log(jumlahVolumeKubus(8, 3));
 
-// ###################
 // 1. Parameter & argumen
 
-function tambah(a, b, c) {
-  // a dan b adalah parameter
-  return a + b + c;
+// function tambah(a, b, c) {
+//   // a dan b adalah parameter
+//   return a + b + c;
+// }
+
+// console.log(tambah(2, 3, 4, 5)); // adalah argumen
+// // setiap value dari argumen tetap disimpan kedalam array meskipun tidak di panggil
+
+// 2.  Refactoring
+// contoh refactoring code function hitung volume diatas
+function jumlahKubus(a, b) {
+  var total = a * a * a + b * b * b;
+
+  return total;
 }
 
-console.log(tambah(2, 3, 4, 5)); // adalah argumen
-// setiap value dari argumen tetap disimpan kedalam array meskipun tidak di panggil
+console.log(jumlahKubus(8, 3));
