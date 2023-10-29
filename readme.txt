@@ -137,7 +137,14 @@ Sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah functionali
 block scope &  function scope
 javascript menggunakan function scope
 
-- contoh function declaration :
+- Rekursif :
+Sebuah fungsi yang memanggil dirisnya sendiri
+
+-function declaration & expression :
+kelebihan declaration :
+- lebih fleksibel (dapat ditulis dimanapun) karena ada hoisting (deklrasi sebuah function pasti disimpan lebih dulu dalam memori)
+
+contoh function declaration :
 function namaFunction(a, b){
   var total;
   total = a + b
@@ -145,10 +152,19 @@ function namaFunction(a, b){
   return total;
 }
 
-- contoh function expression :
+kelebihan expression :
+- harus di definisikan terlebih dahulu sebelum dipanggil
+- lebih powerfull : 
+  - sebagai closure
+  - sebagai argumen untuk function lain
+  - IIFE
+
+contoh function expression :
 var namaVar = function(a,b) {
   var total;
   total = a + b
   
   return total;
 } 
+
+namaVar(1,2);

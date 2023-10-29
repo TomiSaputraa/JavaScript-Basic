@@ -38,14 +38,27 @@
 // contoh function scope
 
 // global scope / windows scope
-var a = 5;
+// var a = 5;
 
-function test() {
-  // var b = 2;
-  // console.log(a); // contoh akses variable global tanpa koflik variable
-  // name conflict
-  var a = 4;
-  console.log(window.a); // akan work jika diakses hanya lewat browser
+// function test() {
+//   // var b = 2;
+//   // console.log(a); // contoh akses variable global tanpa koflik variable
+//   // name conflict
+//   var a = 4;
+//   console.log(window.a); // akan work jika diakses hanya lewat browser
+// }
+// test();
+// // console.log(b); // erorr
+
+// 4. Rekursif
+
+function cetakAngka(n) {
+  if (n === 0) {
+    // base case : digunakan agar rekursif berhenti
+    return;
+  }
+  console.log(n);
+  cetakAngka(n - 1); //function nya di panggil disini
 }
-test();
-// console.log(b); // erorr
+
+cetakAngka(10);
