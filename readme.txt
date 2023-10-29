@@ -133,6 +133,10 @@ jika parameter lebih banyak dari argument, maka parameter kelebihan akan diisi d
 - Refactoring :
 Sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah functionalitas nya
 
+- Variable Scope :
+block scope &  function scope
+javascript menggunakan function scope
+
 - contoh function declaration :
 function namaFunction(a, b){
   var total;

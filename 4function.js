@@ -25,10 +25,27 @@
 
 // 2.  Refactoring
 // contoh refactoring code function hitung volume diatas
-function jumlahKubus(a, b) {
-  var total = a * a * a + b * b * b;
+// function jumlahKubus(a, b) {
+//   var total = a * a * a + b * b * b;
 
-  return total;
+//   return total;
+// }
+
+// console.log(jumlahKubus(8, 3));
+
+// 3.  Variable scope
+
+// contoh function scope
+
+// global scope / windows scope
+var a = 5;
+
+function test() {
+  // var b = 2;
+  // console.log(a); // contoh akses variable global tanpa koflik variable
+  // name conflict
+  var a = 4;
+  console.log(window.a); // akan work jika diakses hanya lewat browser
 }
-
-console.log(jumlahKubus(8, 3));
+test();
+// console.log(b); // erorr
