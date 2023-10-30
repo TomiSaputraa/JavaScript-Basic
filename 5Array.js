@@ -22,7 +22,7 @@
 
 // - Method pada array
 // 1. join
-var arr = ["tomi", "saputra"];
+var arr = ["tomi", "andi", "saputra", "anto", "arif"];
 // console.log(arr.join(" "));
 
 // 2. push & pop
@@ -32,5 +32,16 @@ var arr = ["tomi", "saputra"];
 
 // 3. unshift & shift
 // arr.unshift("Dodas");
-arr.shift();
-console.log(arr.join(" "));
+// arr.shift();
+// console.log(arr.join(" "));
+
+// 4. splice
+// splice(index awal, mau dihapus berapa, elemen baru1,elemen baru2...)
+
+// arr.splice(1, 0, "romas", "anton");
+// console.log(arr);
+
+// 5. slice
+// slice(index awal, index akhir(tidak akan di ambil valuenya))
+var arr2 = arr.slice(1, 3); // 1 - 2
+console.log(arr2.join(" "));

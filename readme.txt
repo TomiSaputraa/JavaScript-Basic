@@ -184,3 +184,5 @@ push = menambahkan Elemen baru di akhir array nya
 pop = menghapus Elemen akhir dari array
 shift = menambahkan Elemen baru di Awal array nya
 unshift = menghapus Elemen awal dari array
+slice = membelah bagian array menjadi array yang baru
+splice = menyambung/menambal sebuah array
