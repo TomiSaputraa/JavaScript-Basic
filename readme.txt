@@ -168,3 +168,14 @@ var namaVar = function(a,b) {
 } 
 
 namaVar(1,2);
+
+# Array
+
+- Kumpulan key dan value
+- Key adalah index dengan tipe integer dimulai dari 0
+- Array pada JS sebagai object
+- Elemen pada array boleh memiliki tipe data yang berbeda
+
+pair :
+[index] = menampilkan data di index berapa dalam array
+length = melihat panjang array
