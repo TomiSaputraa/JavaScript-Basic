@@ -196,3 +196,6 @@ find = hanya menghasilkan satu hasil & tidak menghasilkan array sama seperti for
 dan perlu mengakses indeks elemen, sedangkan forEach lebih cocok digunakan saat Anda 
 hanya perlu melakukan iterasi melalui elemen-elemen array tanpa perlu mengkhawatirkan 
 indeksnya."
+
+# Object
+object sama dengan array, tapi tidak memiliki index tapi key:value
