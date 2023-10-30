@@ -60,7 +60,7 @@ var angka = [1, 2, 3, 4, 5, 6];
 // 7. Map
 // mengembalikan array sedangkan foreach tidak
 
-var angka2 = [1, 2, 3, 4, 5, 6, 9, 20, 8];
+var angka2 = [1, 2, 3, 4, 5, 6, 5, 9, 20, 8];
 // var angka3 = angka2.map(function (e) {
 //   return e * 2;
 // });
@@ -69,8 +69,19 @@ var angka2 = [1, 2, 3, 4, 5, 6, 9, 20, 8];
 // jika menggunakan foreach tidak bisa menggunakan join karna foreach tidak mengembalikan array
 
 // 8. sort
-angka2.sort(function (a, b) {
-  // tambahkan function agar urutan value array benar
-  return a - b;
+// angka2.sort(function (a, b) {
+//   // tambahkan function agar urutan value array benar
+//   return a - b;
+// });
+// console.log(angka2.join(" "));
+
+// 9. filter
+// var angka3 = angka2.filter(function (x) {
+//   return x > 5; // cari angka lebih dari 5
+// });
+
+var angka3 = angka2.find(function (x) {
+  return x > 5; // cari angka lebih dari 5
 });
-console.log(angka2.join(" "));
+// console.log(angka3.join(" "));
+console.log(angka3);

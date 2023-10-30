@@ -189,3 +189,5 @@ splice = menyambung/menambal sebuah array
 foreach = digunakan untuk mengubah elemen-elemen dalam array asal tanpa membuat array baru
 map = digunakan untuk membuat array baru dengan hasil transformasi dari setiap elemen dalam array asal.
 sort = untuk mengurutkan isi array
+filter = menghasilkan banyak nilai
+find = hanya menghasilkan satu hasil & tidak menghasilkan array sama seperti foreach
