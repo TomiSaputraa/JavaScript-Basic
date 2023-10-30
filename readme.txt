@@ -179,3 +179,8 @@ namaVar(1,2);
 pair :
 [index] = menampilkan data di index berapa dalam array
 length = melihat panjang array
+join = menggabungkan seluruh isi array dan mengubah nya menjadi string
+push = menambahkan Elemen baru di akhir array nya
+pop = menghapus Elemen akhir dari array
+shift = menambahkan Elemen baru di Awal array nya
+unshift = menghapus Elemen awal dari array
