@@ -198,4 +198,10 @@ hanya perlu melakukan iterasi melalui elemen-elemen array tanpa perlu mengkhawat
 indeksnya."
 
 # Object
-object sama dengan array, tapi tidak memiliki index tapi key:value
+object sama dengan array, tapi tidak memiliki index tapi key : value
+
+membuat object pada JS :
+- object literal
+- function declaration
+- constructor function (keyword new)
+- object.create
