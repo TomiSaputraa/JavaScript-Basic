@@ -75,7 +75,7 @@ var angka2 = [1, 2, 3, 4, 5, 6, 5, 9, 20, 8];
 // });
 // console.log(angka2.join(" "));
 
-// 9. filter
+// 9. filter & find
 // var angka3 = angka2.filter(function (x) {
 //   return x > 5; // cari angka lebih dari 5
 // });

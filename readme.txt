@@ -182,8 +182,8 @@ length = melihat panjang array
 join = menggabungkan seluruh isi array dan mengubah nya menjadi string
 push = menambahkan Elemen baru di akhir array nya
 pop = menghapus Elemen akhir dari array
-shift = menambahkan Elemen baru di Awal array nya
-unshift = menghapus Elemen awal dari array
+unshift = menambahkan Elemen baru di Awal array nya
+shift = menghapus Elemen awal dari array
 slice = membelah bagian array menjadi array yang baru
 splice = menyambung/menambal sebuah array
 foreach = digunakan untuk mengubah elemen-elemen dalam array asal tanpa membuat array baru
@@ -191,3 +191,8 @@ map = digunakan untuk membuat array baru dengan hasil transformasi dari setiap e
 sort = untuk mengurutkan isi array
 filter = menghasilkan banyak nilai
 find = hanya menghasilkan satu hasil & tidak menghasilkan array sama seperti foreach
+
+"for loop lebih umum digunakan ketika Anda memerlukan kontrol lebih besar atas iterasi 
+dan perlu mengakses indeks elemen, sedangkan forEach lebih cocok digunakan saat Anda 
+hanya perlu melakukan iterasi melalui elemen-elemen array tanpa perlu mengkhawatirkan 
+indeksnya."
