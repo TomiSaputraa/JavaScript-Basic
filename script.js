@@ -39,7 +39,8 @@ var hapusPenumpang = function (namaPenumpang, penumpang) {
     for (var i = 0; i < penumpang.length; i++) {
       // jika nama penumpang sesuai
       if (penumpang[i] === namaPenumpang) {
-        penumpang[i] = undefined;
+        // penumpang[i] = undefined;
+        penumpang.splice(i, 1);
         return penumpang;
       }
 
