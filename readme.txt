@@ -186,3 +186,6 @@ shift = menambahkan Elemen baru di Awal array nya
 unshift = menghapus Elemen awal dari array
 slice = membelah bagian array menjadi array yang baru
 splice = menyambung/menambal sebuah array
+foreach = digunakan untuk mengubah elemen-elemen dalam array asal tanpa membuat array baru
+map = digunakan untuk membuat array baru dengan hasil transformasi dari setiap elemen dalam array asal.
+sort = untuk mengurutkan isi array
