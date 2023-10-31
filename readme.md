@@ -132,11 +132,13 @@ pengkondisian/percabangan :
   jika parameter lebih banyak dari argument, maka parameter kelebihan akan diisi dengan undifined
 
 - Refactoring :
-  Sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah functionalitas nya
+
+  - Sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah functionalitas nya
 
 - Variable Scope :
-  block scope & function scope
-  javascript menggunakan function scope
+
+  - block scope & function scope
+  - javascript menggunakan function scope
 
 - Rekursif :
   Sebuah fungsi yang memanggil dirisnya sendiri
