@@ -41,9 +41,9 @@ binary :
   - != : tidak sama dengan
   - === : strict sama dengan(tidak hanya membandingkan nilai tapi juga tipe data)
   - !== : strict tidak sama dengan
-  - > : lebih besar dari
+  - `>` : lebih besar dari
   - < : lebih kecil dari
-  - > = : lebih besar sama dengan
+  - `>` = : lebih besar sama dengan
   - <= : lebih kecil sama dengan
 - logika (&&, ||, !)
 - string (+)
