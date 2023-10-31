@@ -109,63 +109,66 @@ Deklarasi variable :
 # Control flow
 
 pengulangan :
+
 - for
 - while:
   nilai awal
   while(kondisi terminasi) {
-    aksi
-    
-    increment/decrement
+  aksi
+  increment/decrement
   }
 - do while
 
 pengkondisian/percabangan :
+
 - if,else if, else
 - switch
 
 # function
 
 - parameter & argument
-argument adalah nilai yang benar-benar dikirimkan ke parameter
-jika parameter lebih sedikit dari argument, maka argument selebihnya akan diabaikan
-jika parameter lebih banyak dari argument, maka parameter kelebihan akan diisi dengan undifined
+  argument adalah nilai yang benar-benar dikirimkan ke parameter
+  jika parameter lebih sedikit dari argument, maka argument selebihnya akan diabaikan
+  jika parameter lebih banyak dari argument, maka parameter kelebihan akan diisi dengan undifined
 
 - Refactoring :
-Sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah functionalitas nya
+  Sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah functionalitas nya
 
 - Variable Scope :
-block scope &  function scope
-javascript menggunakan function scope
+  block scope & function scope
+  javascript menggunakan function scope
 
 - Rekursif :
-Sebuah fungsi yang memanggil dirisnya sendiri
+  Sebuah fungsi yang memanggil dirisnya sendiri
 
 -function declaration & expression :
 kelebihan declaration :
+
 - lebih fleksibel (dapat ditulis dimanapun) karena ada hoisting (deklrasi sebuah function pasti disimpan lebih dulu dalam memori)
 
 contoh function declaration :
 function namaFunction(a, b){
-  var total;
-  total = a + b
-  
-  return total;
+var total;
+total = a + b
+
+return total;
 }
 
 kelebihan expression :
+
 - harus di definisikan terlebih dahulu sebelum dipanggil
-- lebih powerfull : 
+- lebih powerfull :
   - sebagai closure
   - sebagai argumen untuk function lain
   - IIFE
 
 contoh function expression :
 var namaVar = function(a,b) {
-  var total;
-  total = a + b
-  
-  return total;
-} 
+var total;
+total = a + b
+
+return total;
+}
 
 namaVar(1,2);
 
@@ -192,16 +195,20 @@ sort = untuk mengurutkan isi array
 filter = menghasilkan banyak nilai
 find = hanya menghasilkan satu hasil & tidak menghasilkan array sama seperti foreach
 
-"for loop lebih umum digunakan ketika Anda memerlukan kontrol lebih besar atas iterasi 
-dan perlu mengakses indeks elemen, sedangkan forEach lebih cocok digunakan saat Anda 
-hanya perlu melakukan iterasi melalui elemen-elemen array tanpa perlu mengkhawatirkan 
+"for loop lebih umum digunakan ketika Anda memerlukan kontrol lebih besar atas iterasi
+dan perlu mengakses indeks elemen, sedangkan forEach lebih cocok digunakan saat Anda
+hanya perlu melakukan iterasi melalui elemen-elemen array tanpa perlu mengkhawatirkan
 indeksnya."
 
 # Object
+
 object sama dengan array, tapi tidak memiliki index tapi key : value
 
 membuat object pada JS :
+
 - object literal
 - function declaration
 - constructor function (keyword new)
 - object.create
+
+this = sebuah keyword spesial yang secara otomatis di definisikan pada setiap function
