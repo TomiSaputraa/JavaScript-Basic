@@ -1,4 +1,17 @@
-# Nilai dan tipe data :
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="# 1. Nilai dan tipe data">Nilai dan tipe data</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+# 1. Nilai dan tipe data
 
 Tipe data :
 
@@ -9,7 +22,7 @@ Tipe data :
 - function
 - undifined
 
-# Angka :
+# 2. Angka :
 
 jangan pernah mengawali angka dengan 0(nol)
 0 akan di anggap bilangan oktal
@@ -30,7 +43,7 @@ eksponen :
 
 dan bilangan negatif
 
-# Operator aritmatika :
+# 3. Operator Aritmatika :
 
 binary :
 
@@ -60,7 +73,7 @@ membutuhkan satu operand
 - typeof : digunakan untuk mengetahui tipe data apa dari nilai nanti yang kita masukan kedalamnya
   typeof(operand)
 
-# String
+# 4. String
 
 digunakan untuk data tekstual menggunakan tanda :
 
