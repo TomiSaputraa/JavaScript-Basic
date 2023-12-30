@@ -353,7 +353,7 @@ Control flow adalah konsep dalam pemrograman yang mengacu pada cara eksekusi pro
       const hasil = luasAlas * tinggi;
       return hasil;
     }
-    Setelah refactoring:
+    // Setelah refactoring:
     function hitungLuasPersegiPanjang(panjang, lebar) {
       return panjang * lebar;
     }
