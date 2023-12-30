@@ -1,3 +1,4 @@
+<p align="right">🔝</p>
 # 1. Nilai dan tipe data
 
 Beberapa Tipe data :
