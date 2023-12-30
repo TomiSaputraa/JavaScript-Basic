@@ -51,7 +51,7 @@ falsy : yang menyimpan nilai false
 - null
 - NaN
 
-### Tipe Data Angka :
+### Angka :
 jangan pernah mengawali angka dengan 0(nol)
 0 akan di anggap bilangan oktal
 NaN(not a number)
