@@ -2,7 +2,7 @@
 <details>
   <summary>Daftar isi konten</summary>
   <ol>
-    <li><a href="#1.-Nilai-dan-tipe-data">Nilai dan tipe data</a></li>
+    <li><a href="#1. Nilai-dan-tipe-data">Nilai dan tipe data</a></li>
     <li><a href="#2.-Operator">Operator</a></li>
     <li><a href="#3.-Variable">Variable</a></li>
     <li><a href="#4.-Control flow">Control Flow</a></li>
