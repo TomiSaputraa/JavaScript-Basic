@@ -126,7 +126,49 @@ Control flow adalah konsep dalam pemrograman yang mengacu pada cara eksekusi pro
 ## pengkondisian/percabangan :
 
 - if,else if, else
+  <details>
+    <summary>Contoh</summary>
+    <code>
+      let nilai = 80;
+      if (nilai >= 70) {
+        console.log('Lulus');
+      } else {
+        console.log('Tidak Lulus');
+      }
+    </code>
+  </details>
+  
 - switch
+<details>
+    <summary>Contoh</summary>
+    <code>
+      let hari = "Senin";
+
+      switch (hari) {
+        case "Senin":
+          console.log("Hari kerja, semangat!");
+          break;
+      
+        case "Selasa":
+        case "Rabu":
+        case "Kamis":
+          console.log("Masih hari kerja, tetap semangat!");
+          break;
+      
+        case "Jumat":
+          console.log("Hari terakhir kerja, woohoo!");
+          break;
+      
+        case "Sabtu":
+        case "Minggu":
+          console.log("Hari libur, nikmati waktu Anda!");
+          break;
+      
+        default:
+          console.log("Hari tidak valid.");
+      }
+    </code>
+  </details>
 
 # 5. function
 - parameter & argument : 
