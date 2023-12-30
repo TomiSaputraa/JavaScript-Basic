@@ -128,7 +128,7 @@ Control flow adalah konsep dalam pemrograman yang mengacu pada cara eksekusi pro
 - if,else if, else
 - switch
 
-# function
+# 5. function
 - parameter & argument : 
   argument adalah nilai yang benar-benar dikirimkan ke parameter
   jika parameter lebih sedikit dari argument, maka argument selebihnya akan diabaikan
@@ -173,7 +173,7 @@ return total;
 
 namaVar(1,2);
 
-# Array
+# 6. Array
 
 - Kumpulan key dan value
 - Key adalah index dengan tipe integer dimulai dari 0
@@ -201,7 +201,7 @@ dan perlu mengakses indeks elemen, sedangkan forEach lebih cocok digunakan saat 
 hanya perlu melakukan iterasi melalui elemen-elemen array tanpa perlu mengkhawatirkan
 indeksnya."
 
-# Object
+# 7. Object
 
 object sama dengan array, tapi tidak memiliki index tapi key : value
 
@@ -215,7 +215,7 @@ membuat object pada JS :
 this = sebuah keyword spesial yang secara otomatis di definisikan pada setiap function
 
 
-# Pop up box
+# 8. Pop up box
 
 - alert
 - prompt
