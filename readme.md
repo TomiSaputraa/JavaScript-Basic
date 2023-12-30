@@ -2,8 +2,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="# 1. Nilai dan tipe data">Nilai dan tipe data</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#1.-Nilai-dan-tipe-data">Nilai dan tipe data</a></li>
+    <li><a href="#roadmap">Operator</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
