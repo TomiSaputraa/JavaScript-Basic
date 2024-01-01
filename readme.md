@@ -531,29 +531,11 @@ membuat object pada JS :
   person1.sayHello(); // Output: Hello, my name is John and I am 25 years old.
   person2.sayHello(); // Output: Hello, my name is Jane and I am 30 years old.
 
+  // Kelebihan :
   // Penggunaan prototype membantu mengoptimalkan penggunaan memori karena metode bersama hanya didefinisikan satu kali di tingkat prototype dan digunakan oleh semua instance objek. Hal ini dapat bermanfaat ketika Anda memiliki banyak instance objek yang menggunakan metode yang sama.
     ```  
   </details>
-  
-- function declaration
-  <details>
-  <summary>contoh kode</summary>
 
-  ```javascript
-  // Function Declaration dengan properti dan metode
-  function createPerson(name, age) {
-  return {
-    name: name,
-    age: age,
-    greet: function() {
-      console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
-    }
-  };
-  }
-  
-  const person2 = createPerson('Jane', 30);
-  ```
-  </details>
 - constructor function (keyword new)
   <details>
   <summary>contoh kode</summary>
@@ -585,7 +567,7 @@ membuat object pada JS :
   siswa2.sapa();
 
   // kekurangan :
-  //Perlu dicatat bahwa pendekatan ini memiliki kekurangan dalam hal penggunaan memori jika Anda membuat banyak instance dengan metode yang sama, karena setiap instance akan memiliki salinan metode sayHello. Pendekatan alternatif, seperti menggunakan prototype untuk metode bersama, dapat membantu mengatasi masalah tersebut.
+  // Perlu dicatat bahwa pendekatan ini memiliki kekurangan dalam hal penggunaan memori jika Anda membuat banyak instance dengan metode yang sama, karena setiap instance akan memiliki salinan metode sayHello. Pendekatan alternatif, seperti menggunakan prototype untuk metode bersama, dapat membantu mengatasi masalah tersebut.
   
   ```
   </details>
@@ -621,9 +603,28 @@ membuat object pada JS :
   siswa2.sapa();
   ```
   </details>
+ 
+- function declaration
+  <details>
+  <summary>contoh kode</summary>
 
+  ```javascript
+  // Function Declaration dengan properti dan metode
+  function createPerson(name, age) {
+  return {
+    name: name,
+    age: age,
+    greet: function() {
+      console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+  };
+  }
+  
+  const person2 = createPerson('Jane', 30);
+  ```
+  </details>
+  
 this = sebuah keyword spesial yang secara otomatis di definisikan pada setiap function
-
 
 # 8. Pop up box
 
