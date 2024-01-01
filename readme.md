@@ -511,29 +511,17 @@ membuat object pada JS :
 
   ```javascript
   // Function Declaration dengan properti dan metode
-  function Siswa(nama, umur, kelas) {
-    // Properti
-    this.nama = nama;
-    this.umur = umur;
-    this.kelas = kelas;
-
-    // Metode
-    this.sapa = function() {
-      console.log("Halo, nama saya " + this.nama + "!");
-    };
+  function createPerson(name, age) {
+  return {
+    name: name,
+    age: age,
+    greet: function() {
+      console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+  };
   }
-
-  // Membuat objek menggunakan fungsi constructor
-  let siswa1 = new Siswa("John Doe", 18, "12A");
-  let siswa2 = new Siswa("Jane Doe", 17, "11B");
-
-  // Mengakses properti objek
-  console.log("Nama Siswa 1: " + siswa1.nama);
-  console.log("Umur Siswa 2: " + siswa2.umur);
-
-  // Memanggil metode objek
-  siswa1.sapa();
-  siswa2.sapa();
+  
+  const person2 = createPerson('Jane', 30);
   ```
   </details>
 - constructor function (keyword new)
