@@ -505,6 +505,36 @@ membuat object pada JS :
     
   ```
   </details>
+
+- prototype
+  <details>
+    <summary>contoh kode</summary>
+
+    ```javascript
+    // Constructor function
+  function Person(name, age) {
+    // Properties
+    this.name = name;
+    this.age = age;
+  }
+  
+  // Method shared among all instances using prototype
+  Person.prototype.sayHello = function() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+  };
+  
+  // Creating instances using the constructor
+  const person1 = new Person('John', 25);
+  const person2 = new Person('Jane', 30);
+  
+  // Calling the shared method
+  person1.sayHello(); // Output: Hello, my name is John and I am 25 years old.
+  person2.sayHello(); // Output: Hello, my name is Jane and I am 30 years old.
+
+  // Penggunaan prototype membantu mengoptimalkan penggunaan memori karena metode bersama hanya didefinisikan satu kali di tingkat prototype dan digunakan oleh semua instance objek. Hal ini dapat bermanfaat ketika Anda memiliki banyak instance objek yang menggunakan metode yang sama.
+    ```  
+  </details>
+  
 - function declaration
   <details>
   <summary>contoh kode</summary>
@@ -553,6 +583,10 @@ membuat object pada JS :
   // Memanggil metode objek
   siswa1.sapa();
   siswa2.sapa();
+
+  // kekurangan :
+  //Perlu dicatat bahwa pendekatan ini memiliki kekurangan dalam hal penggunaan memori jika Anda membuat banyak instance dengan metode yang sama, karena setiap instance akan memiliki salinan metode sayHello. Pendekatan alternatif, seperti menggunakan prototype untuk metode bersama, dapat membantu mengatasi masalah tersebut.
+  
   ```
   </details>
 - object.create
