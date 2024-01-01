@@ -536,6 +536,39 @@ membuat object pada JS :
     ```  
   </details>
 
+- Class
+  <details>
+    <summary>contoh kode</summary>
+
+    ```javascript
+    // Class definition
+    class Person {
+      // Constructor
+      constructor(name, age) {
+        // Properties
+        this.name = name;
+        this.age = age;
+      }
+    
+      // Method
+      sayHello() {
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+      }
+    }
+    
+    // Creating instances using the class
+    const person1 = new Person('John', 25);
+    const person2 = new Person('Jane', 30);
+    
+    // Calling the method
+    person1.sayHello(); // Output: Hello, my name is John and I am 25 years old.
+    person2.sayHello(); // Output: Hello, my name is Jane and I am 30 years old.
+
+    // persamaan dengan consrtructor
+    // Alokasi memori untuk class dan constructor di JavaScript dapat serupa, terutama ketika membahas pembuatan instance objek dengan menggunakan operator new. Perbedaan utamanya adalah pada sintaksis dan penanganan metode bersama.
+    ```
+  </details>
+
 - constructor function (keyword new)
   <details>
   <summary>contoh kode</summary>
